@@ -79,4 +79,4 @@ sh simulate_access.sh;
 echo "applysettings.sh";
 sh applysettings.sh;
 
-echo 'SUCCESS. Please access $LiveUrl now and test !';
+echo "SUCCESS. Please access $LiveUrl now and test !";
