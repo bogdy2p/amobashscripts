@@ -1,6 +1,6 @@
 #!/bin/bash
 . ./bashconfiguration.sh;
 
-cd $HtdocsFolder;
+cd $HtdocsFolder/shell;
 
 echo "MAGENTO CORE URL BACKUP SCRIPT HERE !";
