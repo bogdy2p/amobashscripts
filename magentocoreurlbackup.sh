@@ -2,5 +2,4 @@
 . ./bashconfiguration.sh;
 
 cd $HtdocsFolder/shell;
-
-echo "MAGENTO CORE URL BACKUP SCRIPT HERE !";
+php -f core_url_backup.php;

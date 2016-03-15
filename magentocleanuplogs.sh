@@ -2,5 +2,4 @@
 . ./bashconfiguration.sh;
 
 cd $HtdocsFolder/shell;
-
-echo "MAGENTO CLEANUP LOGS SCRIPT HERE !";
+php -f cleanup_logs.php;
