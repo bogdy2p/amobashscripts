@@ -15,6 +15,7 @@ AdminPassword='admin123';
 AdminEmail='bogdan.popa@reea.net';
 SettingsCsvFile='/var/www/html/settings.csv';
 LiveUrl='http://simulate.com/';
+GitAdress='http://git.reea.net/reea/amorana.git';
 ############################################################################
 ############################################################################
 # echo "Configuration Imported.";

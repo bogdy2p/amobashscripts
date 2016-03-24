@@ -7,7 +7,7 @@ echo 'Starting database import.';
 mysql -u root -p$DatabasePwd -D $DatabaseName < $DatabaseDump;
 echo '------------------';
 echo 'Starting git grab';
-git clone http://git.reea.net/reea/amorana.git $GitFolder;
+git clone $GitAdress $GitFolder;
 echo 'Git cloned';
 echo '------------------';
 cd $GitFolder;
