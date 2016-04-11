@@ -15,7 +15,8 @@ AdminPassword='admin123';
 AdminEmail='bogdan.popa@reea.net';
 LiveUrl='http://new.amorana.ch/';
 GitAdress='http://git.reea.net/reea/amorana.git';
-ComposerAdress="$GitFolder/tools/composer.phar";
+ComposerAdress="tools/composer.phar";
+PhpPath="/usr/local/php/bin/php";
 ############################################################################
 ############################################################################
 echo "Configuration Imported.";
