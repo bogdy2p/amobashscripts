@@ -24,8 +24,21 @@ echo "$MUSER , $MPASS , $MDB   -- FOR TESTING PURPOSES";
 echo "Starting git grab of $GitAdress into $GitFolder";
 git clone $GitAdress $GitFolder;
 echo 'Git cloned';
+
+
+
+
+
 echo '------------------';
 cd $GitFolder;
+
+echo 'Removing composer.lock;';
+rm composer.lock;
+echo 'Removing composer.json';
+rm composer.json;
+echo 'Symlinking production (latest) composer.json';
+ln -s ~amora_new/production_composer.json $GitFolder/composer.json
+
 
 cd htdocs;
 $PhpPath $ComposerAdress install;

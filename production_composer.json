@@ -1,0 +1,30 @@
+{
+    "name": "magento/boilerplate",
+    "minimum-stability": "stable",
+    "require": {
+        "aoepeople/composer-installers": "*",
+        "aoepeople/envsettingstool": "*",
+        "aoepeople/magento-deployscripts": "*",
+        "tmp/magento_community": "1.9.2.3",
+        "aoepeople/aoe_templatehints": "*",
+        "aoepeople/aoe_scheduler": "*",
+        "aoepeople/aoe_profiler": "*"
+    },
+    "config": {
+        "bin-dir": "tools"
+    },
+    "repositories": [
+        {
+            "type": "package",
+            "package": {
+                "name": "tmp/magento_community",
+                "type": "magento-source",
+                "version": "1.9.2.3",
+                "dist": {
+                    "url": "https://github.com/OpenMage/magento-mirror/archive/1.9.2.3.zip",
+                    "type": "zip"
+                }
+            }
+        }
+    ]
+}
