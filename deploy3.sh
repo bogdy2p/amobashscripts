@@ -4,4 +4,4 @@
 
 echo 'Deploy ALL';
 cd $HtdocsFolder;
-../tools/modman deploy-all;
+$PhpPath ../tools/modman deploy-all;

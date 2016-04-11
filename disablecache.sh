@@ -3,5 +3,5 @@
 
 echo 'Disabling cache';
 cd $HtdocsFolder;
-../tools/n98-magerun.phar cache:disable;
+$PhpPath ../tools/n98-magerun.phar cache:disable;
 

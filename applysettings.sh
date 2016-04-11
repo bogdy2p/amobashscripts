@@ -3,4 +3,4 @@
 
 echo 'Applying settings...';
 cd $HtdocsFolder;
-$GitFolder/tools/apply.php integration $GitFolder/Configuration/settings.csv;
+$PhpPath $GitFolder/tools/apply.php latest $GitFolder/Configuration/settings.csv;

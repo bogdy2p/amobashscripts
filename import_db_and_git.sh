@@ -21,6 +21,9 @@ echo "$MUSER , $MPASS , $MDB   -- FOR TESTING PURPOSES";
 # done
 
 
+
+
+
 echo "Starting git grab of $GitAdress into $GitFolder";
 git clone $GitAdress $GitFolder;
 echo 'Git cloned';
@@ -41,8 +44,3 @@ $PhpPath $ComposerAdress install;
 # $ComposerAdress install;
 echo 'Composer installed';
 echo '------------------';
-
-# rsync -avz $SettingsCsvFile $GitFolder/Configuration/settings.csv;
-# echo 'Settings.csv copied.';
-# echo '------------------';
-

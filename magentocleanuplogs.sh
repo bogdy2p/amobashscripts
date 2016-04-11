@@ -2,4 +2,4 @@
 . ./bashconfiguration.sh;
 
 cd $HtdocsFolder/shell;
-php -f cleanup_logs.php;
+$PhpPath -f cleanup_logs.php;

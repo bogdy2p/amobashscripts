@@ -2,5 +2,5 @@
 . ./bashconfiguration.sh;
 
 cd $HtdocsFolder;
-../tools/n98-magerun.phar index:reindex:all;
+$PhpPath ../tools/n98-magerun.phar index:reindex:all;
 
