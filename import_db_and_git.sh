@@ -27,9 +27,9 @@ echo "Starting git grab of $GitAdress into $GitFolder";
 git clone $GitAdress $GitFolder;
 echo 'Git cloned';
 echo '------------------';
-# cd $GitFolder;
+cd $GitFolder;
 
-# composer install;
+composer install;
 echo 'Composer installed';
 echo '------------------';
 
