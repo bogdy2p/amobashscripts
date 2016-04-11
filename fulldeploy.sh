@@ -10,7 +10,7 @@ sh import_db_and_git.sh;
 
 #Symlink media folder and rest of reuqired files.
 echo "symlinks.sh";
-# sh symlinks.sh;
+sh symlinks.sh;
 
 #Manually remove cache
 echo "manual_cache.sh";
