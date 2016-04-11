@@ -2,21 +2,19 @@
 ############################################################################
 ############################################################################
 #Configuration For all scripts
-ApacheFolder="/var/www/html";
-GitFolder=$ApacheFolder'/amorana2';
+ApacheFolder="/home/www/amora_new";
+GitFolder=$ApacheFolder'/htdocs/amorana-v2/production/releases/current';
 HtdocsFolder=$GitFolder'/htdocs';
 ScriptsFolder=$GitFolder'/scripts';
-DatabaseName='simulate';
-DatabasePwd='romania';
-DatabaseDump='/home/pbc/Desktop/truncated.sql';
-SymlinkableMediaFolder='/home/pbc/Desktop/amoranach_media/media';
+DatabaseName='amora_new';
+DatabasePwd='8B1W4ZIJvcVY8rpLjbN8JCNAsJ';
+DatabaseDump='/home/www/amora_new/08-april-2016.sql';
+SymlinkableMediaFolder='/htdocs/amorana-v2/production/shared/media';
 AdminUsername='admin';
 AdminPassword='admin123';
 AdminEmail='bogdan.popa@reea.net';
-SettingsCsvFile='/var/www/html/settings.csv';
-LiveUrl='http://simulate.com/';
-# GitAdress='http://git.reea.net/reea/amorana.git';
-GitAdress='-b feature/updateBanners http://git.reea.net/reea/amorana.git';
+LiveUrl='http://new.amorana.ch/';
+GitAdress='http://git.reea.net/reea/amorana.git';
 ############################################################################
 ############################################################################
-# echo "Configuration Imported.";
+echo "Configuration Imported.";
