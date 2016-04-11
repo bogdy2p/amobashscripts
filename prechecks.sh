@@ -8,8 +8,7 @@ echo "Removing GIT folder if exists";
 if test -e $GitFolder;
 	then
 		echo "WE HAVE FOUND THE GIT FOLDER";
-		cd $GitFolder;
-		ls -a;
+		rm - R $GitFolder;
 	else
 		echo "Continuing , git folder not found yet.";
 fi
