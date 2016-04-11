@@ -6,7 +6,7 @@ echo "prechecks.sh";
 sh prechecks.sh;
 #Create and import database script + git grab
 echo "import_db_and_git.sh";
-# sh import_db_and_git.sh;
+sh import_db_and_git.sh;
 
 #Symlink media folder and rest of reuqired files.
 echo "symlinks.sh";
