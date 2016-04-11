@@ -14,13 +14,11 @@ echo "$MUSER , $MPASS , $MDB   -- FOR TESTING PURPOSES";
 
 # TABLES=$($MYSQL -u $MUSER -p$MPASS $MDB -e 'show tables' | $AWK '{ print $1}' | $GREP -v '^Tables' )
 
-# $MYSQL -u $MUSER -p$MPASS $MDB -e "USE amora_new;SET FOREIGN_KEY_CHECKS=0; exit;";
 # for t in $TABLES
 # do
 #         echo "Deleting $t table from $MDB database..."
-#         $MYSQL -u $MUSER -p$MPASS $MDB -e "drop table $t"
+#         $MYSQL -u $MUSER -p$MPASS $MDB -e "USE amora_new;SET FOREIGN_KEY_CHECKS=0; drop table $t; SET FOREIGN_KEY_CHECKS=1;"
 # done
-# $MYSQL -u $MUSER -p$MPASS $MDB -e "USE amora_new; SET FOREIGN_KEY_CHECKS=1; exit;";
 
 
 echo "Starting git grab of $GitAdress into $GitFolder";
