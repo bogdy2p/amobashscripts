@@ -29,7 +29,7 @@ echo 'Git cloned';
 echo '------------------';
 cd $GitFolder;
 
-$ComposerAdress install;
+composer install;
 echo 'Composer installed';
 echo '------------------';
 

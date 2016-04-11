@@ -15,7 +15,6 @@ AdminPassword='admin123';
 AdminEmail='bogdan.popa@reea.net';
 LiveUrl='http://new.amorana.ch/';
 GitAdress='http://git.reea.net/reea/amorana.git';
-ComposerAdress='/home/www/amora_new/magento-deployscripts/composer.json';
 ############################################################################
 ############################################################################
 echo "Configuration Imported.";
