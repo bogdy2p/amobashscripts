@@ -15,7 +15,7 @@ AdminPassword='admin123';
 AdminEmail='bogdan.popa@reea.net';
 SettingsCsvFile='/var/www/html/settings_amo.csv';
 LiveUrl='https://dev.simulate.com/';
-GitAdress='-b change/PhoenixVarnishToTurpentine http://git.reea.net/reea/amorana.git';
+GitAdress='-b develop http://git.reea.net/reea/amorana.git';
 ############################################################################
 ############################################################################
 # echo "Configuration Imported.";
