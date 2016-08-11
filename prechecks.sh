@@ -18,6 +18,6 @@ if test -d $GitFolder;
 	else 
 		echo 'Directory does not exist.';
 fi
-mysql -u root -p$DatabasePwd -e "DROP DATABASE IF EXISTS $DatabaseName";
+# mysql -u root -p$DatabasePwd -e "DROP DATABASE IF EXISTS $DatabaseName";
 echo 'Prechecks finished.';
 echo '------------------';
