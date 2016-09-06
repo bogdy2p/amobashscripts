@@ -79,4 +79,10 @@ sh simulate_access.sh;
 echo "applysettings.sh";
 sh applysettings.sh;
 
+# #Clear caches using n98magerun
+
+echo "fullclearcachesatfinish.sh";
+sh fullclearcachesatfinish.sh;
+
+
 echo "SUCCESS. Please access $LiveUrl now and test !";
